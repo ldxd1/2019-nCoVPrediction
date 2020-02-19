@@ -8,7 +8,7 @@ from statsmodels.tsa.arima_model import ARIMA, ARMA
 from statsmodels.graphics.api import qqplot
 import statsmodels.api as sm
 
-data = pd.read_csv('./data/data_without_province_update_20200217.csv', header=0,
+data = pd.read_csv('./data/data_without_province_update_20200218.csv', header=0,
                    names=['date', 'total_confirmed', 'total_recoveries', 'total_deaths', 'new_confirmed',
                           'new_recoveries', 'new_deaths'])
 
